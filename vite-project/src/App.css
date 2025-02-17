@@ -3,6 +3,11 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  --primary: rgb(29,25,10);
+    --secondary: rgb(177,117,255);
+    --tertiary: rgb(184,4,84);
+    --dark: rgb(29,25,10);
+    --light: rgb(220,188,208);
 }
 
 .logo {
@@ -16,6 +21,24 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--dark)
+}
+
+nav a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 @keyframes logo-spin {
@@ -39,4 +62,28 @@
 
 .read-the-docs {
   color: #888;
+}
+
+footer {
+  background-color: var(--tertiary);
+  color: var(--light);
+  text-align: center;
+  padding: 1rem;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
