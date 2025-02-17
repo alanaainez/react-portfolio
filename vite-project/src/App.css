@@ -23,13 +23,18 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+header {
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 1rem;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: center;
   gap: 1rem;
-  background-color: var(--dark)
 }
 
 nav a {
