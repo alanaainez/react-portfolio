@@ -3,10 +3,10 @@ function Header() {
         <header>
             <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="#about">About Me</Link></li>
+                <li><Link to= "/portfolio">Portfolio</Link></li>
+                <li><Link to="#contact">Contact</Link></li>
             </ul>
             </nav>
         </header>

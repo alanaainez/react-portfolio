@@ -65,10 +65,6 @@ nav a:hover {
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
-
 footer {
   background-color: var(--tertiary);
   color: var(--light);
