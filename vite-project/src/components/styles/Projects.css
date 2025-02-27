@@ -45,7 +45,6 @@
     font-weight: bold;
     color: var(--light);
     background: var(--primary);
-    transition: background 0.3s ease;
 }
 
 .project-links a:hover {

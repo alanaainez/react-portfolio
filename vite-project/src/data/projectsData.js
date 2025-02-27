@@ -1,6 +1,6 @@
-import selfCareImg from "./assets/self-care.jpeg";
-import tributeImg from "./assets/sensei-funakoshi.jpeg";
-import weatherImg from "./assets/weather-example.jpg";
+import selfCareImg from "../assets/self-care.jpeg";
+import tributeImg from "../assets/sensei-funakoshi.jpeg";
+import weatherImg from "../assets/weather-example.jpg";
 
 const projects = [
     {
