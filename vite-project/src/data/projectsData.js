@@ -1,3 +1,7 @@
+import selfCareImg from "./assets/self-care.jpeg";
+import tributeImg from "./assets/sensei-funakoshi.jpeg";
+import weatherImg from "./assets/weather-example.jpg";
+
 const projects = [
     {
         id: 1,
@@ -16,7 +20,7 @@ const projects = [
         id: 3,
         title: "Self-Care Survey",
         description: "Survey application using Bulma CSS framework.",
-        image: "./src/assets/self-care.jpeg",
+        image: selfCareImg,
         deployedLink: "https://alanaainez.github.io/self-care-survey/",
         githubLink: "https://github.com/alanaainez/self-care-survey.git",
     },
@@ -24,7 +28,7 @@ const projects = [
         id: 4,
         title: "Tribute Page",
         description: "",
-        image: "./src/assets/sensei-funakoshi.jpeg",
+        image: tributeImg,
         deployedLink: "https://your-live-project-link.com",
         githubLink: "",
     },
@@ -38,7 +42,7 @@ const projects = [
         id: 6,
         title: "Weather Dashboard",
         description: "A weather dashboard application that provides weather information for various cities.",
-        image: "./src/assets/weather-example.jpg",
+        image: weatherImg,
         deployedLink: "https://weather-dashboard-fqw6.onrender.com/",
         githubLink: "https://github.com/alanaainez/weather-dashboard.git",
     },

@@ -1,0 +1,53 @@
+/* Project Section Layout */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* Individual Project Card */
+.project-card {
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background: var(--light); /* Use your existing theme colors */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Project Image */
+.project-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Project Links */
+.project-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.project-links a {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--light);
+    background: var(--primary);
+    transition: background 0.3s ease;
+}
+
+.project-links a:hover {
+    background: var(--tertiary);
+}
