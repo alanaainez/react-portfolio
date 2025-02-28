@@ -33,8 +33,24 @@ nav a:hover {
   text-decoration: underline;
 }
 
+body {
+  background-color: rgb(5, 224, 233);
+}
+
+.page-container {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
 .card {
   padding: 2em;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {

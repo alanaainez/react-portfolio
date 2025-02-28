@@ -1,8 +1,11 @@
+import "./styles/About.css";
+import myImage from "../assets/my-image.jpeg"
+
 function About() {
     return (
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
+      <div className="about-container">
+        <img src={myImage} alt="My profile" className="about-image" />
+        <p className="about-text">
             Born and raised in Westchester County in NY, I'm an alumna of Wesleyan University 
             and have a background in childcare and education. I first dipped my feet into the 
             coding waters while I was stuck at home like many other people during the lockdown 
@@ -13,13 +16,13 @@ function About() {
             across in my code. After returning to the job field in office administration and 
             doing some research, I've taken the plunge into computer programming.
             </p>
-            <p>
+            <p className="about-text">
             I enjoy making creations become tangible, from crocheting and designing a 
             cosplay for comic conventions to building Gundam models and online maps for my 
             friends' D&D adventures.
             </p>
-        </section>
-    );
+    </div>
+  );
 }
 
 export default About;

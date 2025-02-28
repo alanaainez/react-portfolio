@@ -1,0 +1,22 @@
+.about-container {
+    background-color: rgb(5, 224, 233);  /* Set the background */
+    min-height: 100vh; /* Ensures it covers the full viewport height */
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 20px;
+}
+  
+.about-image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+  
+.about-text {
+    flex: 1;
+    max-width: 600px;
+    line-height: 1.6;
+}
+  

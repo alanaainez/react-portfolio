@@ -1,5 +1,8 @@
+import "./styles/Contact.css";
+
 function Contact () {
     return (
+        <div className= "page-container">
         <section id="contact">
             <h2>Contact Me</h2>
             <form>
@@ -12,6 +15,7 @@ function Contact () {
                 <button type="submit">Send</button>
             </form>
         </section>
+        </div>
     );
 }
 
