@@ -4,10 +4,22 @@
     display: flex;
     align-items: center; 
     justify-content: center;
+    gap: 2rem;
     padding: 20px;
+    max-width: 900px;
+    margin: 0 auto; /* Centers the container */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;  /* Keeps image and text aligned */
+    gap: 30px;  /* Creates space between the image and text */
+    max-width: 80%;
 }
   
 .about-image {
+    flex: 1;
+    max-width: 600px;;
     width: 250px;
     height: auto;
     border-radius: 10px; /* Optional: Rounded corners */

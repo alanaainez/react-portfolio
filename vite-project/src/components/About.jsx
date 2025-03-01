@@ -16,11 +16,6 @@ function About() {
             across in my code. After returning to the job field in office administration and 
             doing some research, I've taken the plunge into computer programming.
             </p>
-            <p className="about-text">
-            I enjoy making creations become tangible, from crocheting and designing a 
-            cosplay for comic conventions to building Gundam models and online maps for my 
-            friends' D&D adventures.
-            </p>
     </div>
   );
 }

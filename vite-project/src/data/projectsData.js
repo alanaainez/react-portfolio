@@ -1,19 +1,23 @@
 import selfCareImg from "../assets/self-care.jpeg";
 import tributeImg from "../assets/sensei-funakoshi.jpeg";
 import weatherImg from "../assets/weather-example.jpg";
+import generatorImg from "../assets/generator-image.jpg";
+import vehicleImg from "../assets/vehicle-image.jpg";
+import trackerImg from "../assets/tracker-image.jpg";
 
 const projects = [
     {
         id: 1,
         title: "Employee Tracker",
         description: "A program utilizing Node.js, Inquirer, and MySQL to manage a company's employee database.",
-        image: "",
+        image: trackerImg,
         githubLink: "https://github.com/alanaainez/sql-employee-tracker.git",
     },
     {
         id: 2,
         title: "README Generator",
-        description: "",
+        description: "A command-line application that dynamically generates a README.md file using Inquirer.",
+        image: generatorImg,
         githubLink: "https://github.com/alanaainez/readme-generator.git",
     },
     {
@@ -27,7 +31,7 @@ const projects = [
     {
         id: 4,
         title: "Tribute Page",
-        description: "",
+        description: "A tribute page dedicated to Sensei Funakoshi, the founder of Shotokan Karate.",
         image: tributeImg,
         deployedLink: "https://your-live-project-link.com",
         githubLink: "",
@@ -36,6 +40,7 @@ const projects = [
         id: 5,
         title: "Vehicle Builder",
         description: "A web application that allows users to build and control their own vehicles.",
+        image: vehicleImg,
         githubLink: "https://alanaainez.github.io/vehicle-builder/",
     },
     {
