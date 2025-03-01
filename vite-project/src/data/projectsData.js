@@ -33,8 +33,7 @@ const projects = [
         title: "Tribute Page",
         description: "A tribute page dedicated to Sensei Funakoshi, the founder of Shotokan Karate.",
         image: tributeImg,
-        deployedLink: "https://your-live-project-link.com",
-        githubLink: "",
+        githubLink: "https://github.com/alanaainez/tribute-page.git",
     },
     {
         id: 5,
@@ -46,7 +45,7 @@ const projects = [
     {
         id: 6,
         title: "Weather Dashboard",
-        description: "A weather dashboard application that provides weather information for various cities.",
+        description: "A weather dashboard application that provides a 5-day weather forecast for various cities.",
         image: weatherImg,
         deployedLink: "https://weather-dashboard-fqw6.onrender.com/",
         githubLink: "https://github.com/alanaainez/weather-dashboard.git",
