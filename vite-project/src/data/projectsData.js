@@ -33,6 +33,7 @@ const projects = [
         title: "Tribute Page",
         description: "A tribute page dedicated to Sensei Funakoshi, the founder of Shotokan Karate.",
         image: tributeImg,
+        deployedLink: "https://alanaainez.github.io/tribute-page/",
         githubLink: "https://github.com/alanaainez/tribute-page.git",
     },
     {
