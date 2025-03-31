@@ -4,6 +4,8 @@ import weatherImg from "../assets/weather-example.jpg";
 import generatorImg from "../assets/generator-image.jpg";
 import vehicleImg from "../assets/vehicle-image.jpg";
 import trackerImg from "../assets/tracker-image.jpg";
+import takeoutImg from "../assets/food-takeout.jpg";
+import socialNetImg from "../assets/social-network.jpg";
 
 const projects = [
     {
@@ -15,13 +17,20 @@ const projects = [
     },
     {
         id: 2,
+        title: "Food Takeout Order System",
+        description: "A food ordering system built with Python.",
+        image: takeoutImg,
+        githubLink: "https://github.com/alanaainez/food-takeout.git",
+    },
+    {
+        id: 3,
         title: "README Generator",
         description: "A command-line application that dynamically generates a README.md file using Inquirer.",
         image: generatorImg,
         githubLink: "https://github.com/alanaainez/readme-generator.git",
     },
     {
-        id: 3,
+        id: 4,
         title: "Self-Care Survey",
         description: "Survey application using Bulma CSS framework.",
         image: selfCareImg,
@@ -29,7 +38,14 @@ const projects = [
         githubLink: "https://github.com/alanaainez/self-care-survey.git",
     },
     {
-        id: 4,
+        id: 5,
+        title: "Social Network API",
+        description: "A social networking application built with Express.js and using Mongoose.",
+        image: socialNetImg,
+        githubLink: "https://github.com/alanaainez/social-network-api.git",
+    },
+    {
+        id: 6,
         title: "Tribute Page",
         description: "A tribute page dedicated to Sensei Funakoshi, the founder of Shotokan Karate.",
         image: tributeImg,
@@ -37,19 +53,27 @@ const projects = [
         githubLink: "https://github.com/alanaainez/tribute-page.git",
     },
     {
-        id: 5,
+        id: 7,
         title: "Vehicle Builder",
         description: "A web application that allows users to build and control their own vehicles.",
         image: vehicleImg,
         githubLink: "https://alanaainez.github.io/vehicle-builder/",
     },
     {
-        id: 6,
+        id: 8,
         title: "Weather Dashboard",
         description: "A weather dashboard application that provides a 5-day weather forecast for various cities.",
         image: weatherImg,
         deployedLink: "https://weather-dashboard-fqw6.onrender.com/",
         githubLink: "https://github.com/alanaainez/weather-dashboard.git",
+    },
+    {
+        id: 9,
+        title: "Wordle Game",
+        description: "This application is based on the NYT game, Wordle. See how many words you can guess within the limit!",
+        image: weatherImg,
+        deployedLink: "https://main.d1ilikym13y2bv.amplifyapp.com/",
+        githubLink: "https://github.com/alanaainez/wordle-game.git",
     },
 ];
 
