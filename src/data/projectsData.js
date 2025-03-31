@@ -6,6 +6,7 @@ import vehicleImg from "../assets/vehicle-image.jpg";
 import trackerImg from "../assets/tracker-image.jpg";
 import takeoutImg from "../assets/food-takeout.jpg";
 import socialNetImg from "../assets/social-network.jpg";
+import wordleImg from "../assets/wordle-grid.jpg";
 
 const projects = [
     {
@@ -71,7 +72,7 @@ const projects = [
         id: 9,
         title: "Wordle Game",
         description: "This application is based on the NYT game, Wordle. See how many words you can guess within the limit!",
-        image: weatherImg,
+        image: wordleImg,
         deployedLink: "https://main.d1ilikym13y2bv.amplifyapp.com/",
         githubLink: "https://github.com/alanaainez/wordle-game.git",
     },
