@@ -13,6 +13,7 @@ form {
   label {
     margin-top: 1rem;
     font-weight: bold;
+    color: rgb(78,26,61);
   }
   
   input, textarea {

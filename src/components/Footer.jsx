@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p>© 2025 My Website. All rights reserved.</p>
+      <h3>© 2025 My Website. All rights reserved.</h3>
       <div>
         <a href="https://github.com/alanaainez" 
         target="_blank" rel="noopener noreferrer">GitHub</a>

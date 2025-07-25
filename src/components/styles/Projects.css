@@ -16,6 +16,7 @@
     text-align: center;
     background: var(--light); /* Use your existing theme colors */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: rgb(78,26,61);
 }
 
 .project-card:hover {

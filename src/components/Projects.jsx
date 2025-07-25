@@ -4,7 +4,6 @@ import "./styles/Projects.css";
 function Projects() {
     return (
         <section id="projects">
-            <h2>My Projects</h2>
             <div className="projects-container">
                 {projects.map((project) => (
                     <div key={project.id} className="project-card">
